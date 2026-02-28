@@ -1,6 +1,6 @@
 # QA Black-Box Case Studies
 
-**Author:** Mpumelelo T. Nxazonke
+**Author:** Mpumelelo T. Nxazonke <br/>
 **Focus:** Quality Engineering | UX Risk Analysis | Systems Thinking
 
 ## Overview
