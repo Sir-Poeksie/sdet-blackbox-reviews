@@ -1,0 +1,7 @@
+node_modules/
+_dev-assets/
+*.log
+.DS_Store
+*.mp4
+tools/
+repo_structure.md

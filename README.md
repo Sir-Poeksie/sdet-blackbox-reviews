@@ -1,74 +1,104 @@
-# UX & QA Black-Box Reviews
+# QA Black-Box Case Studies
 
 **Author:** Mpumelelo T. Nxazonke
+**Focus:** Quality Engineering | UX Risk Analysis | Systems Thinking
 
-**Focus:** QA-driven UX analysis · System thinking · Professional feedback
+## Overview
 
-## Purpose
+This repository contains structured black-box QA and UX case studies conducted on publicly accessible web applications.
 
-This repository contains **black-box UX and QA reviews** of publicly accessible web applications and portfolios.
+The objective is to demonstrate:
 
-The goal is **not criticism**, but to:
+ * SDET-level analytical thinking
+ * Risk-based quality assessment
+ * User-centered evaluation
+ * Clear, professional technical documentation
 
-- Demonstrate *SDET-level evaluation skills*
-- Apply *quality engineering principles* to real systems
-- Identify usability, accessibility, and reliability risks
-- Practice *structured, professional feedback* without code access
+All analyses are performed without source code access and are based strictly on observable system behavior.
 
-All reviews are conducted **without repository access**, based solely on:
+## Professional Intent
 
-- Public UI behavior
-- User flows
-- Browser-based observation
-- Industry best practices
+These case studies exist to:
 
-## What These Reviews Are
+* Apply quality engineering principles to real-world systems
+* Identify usability, accessibility, and performance risks
+* Evaluate clarity of system purpose and user flow
+* Practice structured, evidence-based reporting
+* Strengthen product-level quality thinking
 
-* Manual QA & UX assessments
-* User-first/Recruiter perspective
-* Evidence-based (screenshots, flows, reproducible steps)
-* Framework-agnostic
-* Written in professional, neutral language
+This repository reflects how I approach systems when external to the codebase — similar to onboarding into an unfamiliar production environment.
 
-## What These Reviews Are NOT
+## Method Constraints
 
-- Personal attacks
-- Skill judgments of the developer
-- Claims about internal code quality
-- Security exploitation
-- Commercial audits
+Each review is conducted under strict black-box conditions:
 
-Each review evaluates **the product experience**, not the person.
+* No repository access
+* No backend visibility
+* No privileged environments
+* No security probing
+* No speculative assumptions
 
-## Review Methodology
+Assessment inputs include:
 
-Each review follows a consistent structure:
+* Public UI behavior
+* Navigation flows
+* Interaction patterns
+* Load/performance perception
+* Accessibility signals
 
-1. Context & intent clarity
-2. UX & information architecture
-3. Navigation & interaction
-4. Accessibility & performance signals
-5. Error handling & edge cases
-6. QA risk assessment
-7. Improvement recommendations
+## Evaluation Framework
+
+Each case study follows a consistent QA structure:
+
+1. Context & Intended System Purpose
+2. First-Impression Analysis (5–10 second clarity rule)
+3. Information Architecture & Navigation
+4. Cognitive Load & Interaction Patterns
+5. Accessibility & Inclusive Design Signals
+6. Performance Perception vs UX Impact
+7. Error Handling & Edge Case Observations
+8. Risk Classification Matrix
+9. Improvement Recommendations
+
+## What These Case Studies Emphasize
+
+* Risk-based thinking
+* Product-level quality awareness
+* Structured documentation
+* Clear separation of observation vs inference
+* Neutral, professional language
+
+Each case study evaluates the system experience, not the individual behind it.
 
 ## Repository Structure
 
 ```
 /reviews
- ├─ review-portfolio-001.md
- ├─ review-saas-002.md
- └─ review-dashboard-003.md
+ ├─ R001_Portfolio_WebApp.md
+ ├─ R002_SaaS_Landing_Page.md
+ └─ R003_Dashboard_Interface.md
+
 /templates
- └─ ux-qa-review-template.md
+ └─ QA_BlackBox_Template.md
 ```
+## Alignment With SDET Practice
+
+While these reviews are manual and observational in nature, the thinking process mirrors core SDET responsibilities:
+
+* Identifying risk before automation
+* Clarifying expected vs observed behavior
+* Recognizing UX defects that impact conversion or trust
+* Translating ambiguity into structured documentation
+
+Automation is most effective when built on disciplined observation.
+These case studies represent the foundation of that discipline.
 
 ## Disclaimer
 
-These reviews are:
+These case studies are:
 
-- Educational
-- Non-commercial
-- Based on observable behavior only
+* Educational
+* Non-commercial
+* Based solely on publicly observable behavior
 
-If you are the owner of a reviewed system and wish content to be amended or removed, please raise an issue.
+If you are a system owner and would like clarification or amendment, please open an issue.
