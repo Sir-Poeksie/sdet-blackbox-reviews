@@ -7,18 +7,20 @@
 
 This repository contains structured black-box QA and UX case studies conducted on publicly accessible web applications.
 
-The objective is to demonstrate:
+The purpose is to demonstrate professional quality engineering thinking through observable system behavior, without access to source code or internal environments.
 
- * SDET-level analytical thinking
- * Risk-based quality assessment
- * User-centered evaluation
- * Clear, professional technical documentation
+Each case study showcases:
+
+- Risk-based analysis
+- Product-level quality evaluation
+- User-centered assessment
+- Clear, professional technical documentation
 
 All analyses are performed without source code access and are based strictly on observable system behavior.
 
 ## Professional Intent
 
-These case studies exist to:
+These case studies aim to:
 
 * Apply quality engineering principles to real-world systems
 * Identify usability, accessibility, and performance risks
@@ -83,15 +85,14 @@ Each case study evaluates the system experience, not the individual behind it.
 ```
 ## Alignment With SDET Practice
 
-While these reviews are manual and observational in nature, the thinking process mirrors core SDET responsibilities:
+These exercises reflect the analytical foundation required before effective test automation can be introduced. While these reviews are manual and observational in nature, the thinking process mirrors core SDET responsibilities:
 
 * Identifying risk before automation
 * Clarifying expected vs observed behavior
 * Recognizing UX defects that impact conversion or trust
 * Translating ambiguity into structured documentation
 
-Automation is most effective when built on disciplined observation.
-These case studies represent the foundation of that discipline.
+Automation is most effective when built on disciplined observation. These case studies represent the foundation of that discipline.
 
 ## Disclaimer
 
