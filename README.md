@@ -2,44 +2,24 @@
 Author: Mpumelelo T. Nxazonke  
 Focus: Quality Engineering | UX Risk Analysis | Systems Thinking
 
-<<<<<<< HEAD
 ---
-=======
-**Author:** Mpumelelo T. Nxazonke <br/>
-**Focus:** Quality Engineering | UX Risk Analysis | Systems Thinking
->>>>>>> 9e936e4d581c5f286772bc8e41a25bbe8b9fcafc
 
 ## 1. Overview
 
 This repository contains structured **black-box QA and UX case studies** conducted on publicly accessible web applications.
 
-<<<<<<< HEAD
 The objective is to demonstrate how a QA Engineer evaluates system quality using:
 
 - Observable behavior
 - Risk-based thinking
 - User-centered analysis
 - Structured, professional reporting
-=======
-The purpose is to demonstrate professional quality engineering thinking through observable system behavior, without access to source code or internal environments.
-
-Each case study showcases:
-
-- Risk-based analysis
-- Product-level quality evaluation
-- User-centered assessment
-- Clear, professional technical documentation
->>>>>>> 9e936e4d581c5f286772bc8e41a25bbe8b9fcafc
 
 All evaluations are performed **without access to source code or internal environments**, simulating real-world onboarding into unfamiliar systems.
 
 ---
 
-<<<<<<< HEAD
 ## 2. What This Demonstrates
-=======
-These case studies aim to:
->>>>>>> 9e936e4d581c5f286772bc8e41a25bbe8b9fcafc
 
 Each case study reflects real QA engineering capabilities:
 
@@ -53,7 +33,7 @@ Each case study reflects real QA engineering capabilities:
 
 This is not test execution.
 
-This is **quality analysis at system level**.
+* This is **quality analysis at system level**.
 
 ---
 
@@ -107,8 +87,7 @@ Each review is supported by **visual evidence**:
 - Performance delays
 - Navigation inconsistencies
 
-**Evidence is located under:**
-
+* Evidence is located under:
 ```
 /evidence/screenshots
 /evidence/videos
@@ -130,36 +109,26 @@ This ensures findings are:
 │    └── evidence/
 │         ├── screenshots/
 │         └── videos/
-
 /templates
 ├── ux-qa_review-template.md
 └── sdet-gold_template.md
-
 /tools
 └── Export-RepoTree.ps1
 ```
 
-<<<<<<< HEAD
 ---
-=======
-These exercises reflect the analytical foundation required before effective test automation can be introduced. While these reviews are manual and observational in nature, the thinking process mirrors core SDET responsibilities:
->>>>>>> 9e936e4d581c5f286772bc8e41a25bbe8b9fcafc
 
 ## 7. Alignment with QA & SDET Practice
 
-<<<<<<< HEAD
 These case studies reflect the **foundation of advanced QA and SDET work**:
-=======
-Automation is most effective when built on disciplined observation. These case studies represent the foundation of that discipline.
->>>>>>> 9e936e4d581c5f286772bc8e41a25bbe8b9fcafc
 
 - Identifying risk before automation
 - Defining expected vs observed behavior
 - Detecting UX defects affecting conversion and trust
 - Structuring ambiguity into testable insights
 
--> Automation is not the starting point.  
--> It is built on **disciplined observation and system understanding**.
+* Automation is not the starting point.  
+* It is built on **disciplined observation and system understanding**.
 
 ---
 
@@ -190,9 +159,9 @@ This repository is designed to:
 - Demonstrate **job-ready QA analysis skills**
 
 It reflects how I approach systems when:
--> There is no documentation  
--> There is no backend access  
--> There is only observable behavior  
+* There is no documentation  
+* There is no backend access  
+* There is only observable behavior  
 
 ---
 
@@ -205,7 +174,6 @@ These case studies are:
 - Based solely on publicly observable behavior
 
 If you are a system owner and would like clarification or amendment, please open an issue.
-<<<<<<< HEAD
 
 ---
 
@@ -214,5 +182,3 @@ If you are a system owner and would like clarification or amendment, please open
 **Mpumelelo Theophilas Nxazonke**  
 QA Engineer | SDET (In Progress)  
 South Africa
-=======
->>>>>>> 9e936e4d581c5f286772bc8e41a25bbe8b9fcafc
