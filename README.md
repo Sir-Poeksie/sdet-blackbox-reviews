@@ -1,104 +1,187 @@
 # QA Black-Box Case Studies
+Author: Mpumelelo T. Nxazonke  
+Focus: Quality Engineering | UX Risk Analysis | Systems Thinking
 
-**Author:** Mpumelelo T. Nxazonke
-**Focus:** Quality Engineering | UX Risk Analysis | Systems Thinking
+---
 
-## Overview
+## 1. Overview
 
-This repository contains structured black-box QA and UX case studies conducted on publicly accessible web applications.
+This repository contains structured **black-box QA and UX case studies** conducted on publicly accessible web applications.
 
-The objective is to demonstrate:
+The objective is to demonstrate how a QA Engineer evaluates system quality using:
 
- * SDET-level analytical thinking
- * Risk-based quality assessment
- * User-centered evaluation
- * Clear, professional technical documentation
+- Observable behavior
+- Risk-based thinking
+- User-centered analysis
+- Structured, professional reporting
 
-All analyses are performed without source code access and are based strictly on observable system behavior.
+All evaluations are performed **without access to source code or internal environments**, simulating real-world onboarding into unfamiliar systems.
 
-## Professional Intent
+---
 
-These case studies exist to:
+## 2. What This Demonstrates
 
-* Apply quality engineering principles to real-world systems
-* Identify usability, accessibility, and performance risks
-* Evaluate clarity of system purpose and user flow
-* Practice structured, evidence-based reporting
-* Strengthen product-level quality thinking
+Each case study reflects real QA engineering capabilities:
 
-This repository reflects how I approach systems when external to the codebase — similar to onboarding into an unfamiliar production environment.
+- Identifying **product-level risks**, not just bugs
+- Evaluating **user experience impact on system quality**
+- Translating observations into **clear, actionable insights**
+- Maintaining strict separation between:
+  - Observation
+  - Inference
+  - Recommendation
 
-## Method Constraints
+This is not test execution.
 
-Each review is conducted under strict black-box conditions:
+This is **quality analysis at system level**.
 
-* No repository access
-* No backend visibility
-* No privileged environments
-* No security probing
-* No speculative assumptions
+---
 
-Assessment inputs include:
+## 3. Methodology (Black-Box Constraints)
 
-* Public UI behavior
-* Navigation flows
-* Interaction patterns
-* Load/performance perception
-* Accessibility signals
+All reviews follow strict constraints:
 
-## Evaluation Framework
+- No source code access
+- No backend/API visibility
+- No privileged environments
+- No security probing
+- No speculative assumptions
 
-Each case study follows a consistent QA structure:
+### Inputs Used
 
-1. Context & Intended System Purpose
-2. First-Impression Analysis (5–10 second clarity rule)
-3. Information Architecture & Navigation
-4. Cognitive Load & Interaction Patterns
-5. Accessibility & Inclusive Design Signals
-6. Performance Perception vs UX Impact
-7. Error Handling & Edge Case Observations
-8. Risk Classification Matrix
-9. Improvement Recommendations
+- Public UI behavior
+- Navigation flows
+- Interaction patterns
+- Performance perception
+- Accessibility signals
 
-## What These Case Studies Emphasize
+---
 
-* Risk-based thinking
-* Product-level quality awareness
-* Structured documentation
-* Clear separation of observation vs inference
-* Neutral, professional language
+## 4. Evaluation Framework
 
-Each case study evaluates the system experience, not the individual behind it.
+Each case study follows a consistent structure:
 
-## Repository Structure
+1. System Context & Intended Purpose  
+2. First Impression Analysis (5–10 second clarity rule)  
+3. Information Architecture & Navigation  
+4. Cognitive Load & Interaction Patterns  
+5. Accessibility & Inclusive Design Signals  
+6. Performance Perception vs UX Impact  
+7. Error Handling & Edge Cases  
+8. Risk Classification Matrix  
+9. Improvement Recommendations  
+
+---
+
+## 5. Evidence-Based Analysis
+
+Each review is supported by **visual evidence**:
+
+### Screenshots
+- UI inconsistencies
+- Accessibility issues
+- Layout problems
+
+### Video Recordings
+- Interaction flows
+- Performance delays
+- Navigation inconsistencies
+
+**Evidence is located under:**
+
+```
+/evidence/screenshots
+/evidence/videos
+```
+
+This ensures findings are:
+- Verifiable
+- Reproducible
+- Professionally documented
+
+---
+
+## 6. Repository Structure
 
 ```
 /reviews
- ├─ R001_Portfolio_WebApp.md
- ├─ R002_SaaS_Landing_Page.md
- └─ R003_Dashboard_Interface.md
+├── R001-Portfolio_WebApp/
+│    ├── review.md
+│    └── evidence/
+│         ├── screenshots/
+│         └── videos/
 
 /templates
- └─ QA_BlackBox_Template.md
+├── ux-qa_review-template.md
+└── sdet-gold_template.md
+
+/tools
+└── Export-RepoTree.ps1
 ```
-## Alignment With SDET Practice
 
-While these reviews are manual and observational in nature, the thinking process mirrors core SDET responsibilities:
+---
 
-* Identifying risk before automation
-* Clarifying expected vs observed behavior
-* Recognizing UX defects that impact conversion or trust
-* Translating ambiguity into structured documentation
+## 7. Alignment with QA & SDET Practice
 
-Automation is most effective when built on disciplined observation.
-These case studies represent the foundation of that discipline.
+These case studies reflect the **foundation of advanced QA and SDET work**:
 
-## Disclaimer
+- Identifying risk before automation
+- Defining expected vs observed behavior
+- Detecting UX defects affecting conversion and trust
+- Structuring ambiguity into testable insights
+
+-> Automation is not the starting point.  
+-> It is built on **disciplined observation and system understanding**.
+
+---
+
+## 8. Example Case Study
+
+### R001 — Portfolio Web Application
+
+Focus areas:
+- Purpose clarity (first 5 seconds)
+- Navigation consistency (desktop vs mobile)
+- Performance perception (loading delays)
+- Accessibility (contrast, motion sensitivity)
+- Trust signals (evidence vs claims)
+
+Includes:
+- Full structured QA review
+- Screenshots of UI issues
+- Recorded interaction flows
+
+---
+
+## 9. Professional Intent
+
+This repository is designed to:
+
+- Strengthen **quality engineering thinking**
+- Practice **real-world system evaluation**
+- Demonstrate **job-ready QA analysis skills**
+
+It reflects how I approach systems when:
+-> There is no documentation  
+-> There is no backend access  
+-> There is only observable behavior  
+
+---
+
+## 10. Disclaimer
 
 These case studies are:
 
-* Educational
-* Non-commercial
-* Based solely on publicly observable behavior
+- Educational
+- Non-commercial
+- Based solely on publicly observable behavior
 
 If you are a system owner and would like clarification or amendment, please open an issue.
+
+---
+
+## 11. Author
+
+**Mpumelelo Theophilas Nxazonke**  
+QA Engineer | SDET (In Progress)  
+South Africa

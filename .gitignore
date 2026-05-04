@@ -1,7 +1,9 @@
 node_modules/
 _dev-assets/
+tools/
 *.log
 .DS_Store
 *.mp4
 tools/
 repo_structure.md
+READMEV2.md
